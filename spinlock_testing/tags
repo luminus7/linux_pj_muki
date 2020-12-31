@@ -1,0 +1,126 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ABORT	Lock_Free_BST.h	/^	ABORT = 0,$/;"	e	enum:find_result_type
+CHILDCAS	Lock_Free_BST.h	/^	CHILDCAS,$/;"	e	enum:flag_type
+Child_CAS_OP	Lock_Free_BST.h	/^} Child_CAS_OP;$/;"	t	typeref:struct:Child_Compare_And_Swap_Operation
+Child_Compare_And_Swap_Operation	Lock_Free_BST.h	/^typedef struct Child_Compare_And_Swap_Operation {$/;"	s
+FAILED	Lock_Free_BST.h	/^	FAILED$/;"	e	enum:operation_state
+FG_BST_Node	Fine_Grained_BST.h	/^}FG_BST_Node;$/;"	t	typeref:struct:Fine_Grained_BST_Node
+FG_insert	Fine_Grained_BST_Lock.c	/^void FG_insert(int val, FG_BST_Node* root, FG_BST_Node *parent, int thread_num) {$/;"	f
+FG_jobs	main.c	/^void *FG_jobs(void* _arg)$/;"	f
+FG_jobs	main_t2.c	/^void *FG_jobs(void* _arg)$/;"	f
+FG_remove	Fine_Grained_BST_Lock.c	/^int FG_remove(int val, FG_BST_Node *root, int thread_num)$/;"	f
+FG_search	Fine_Grained_BST_Lock.c	/^void FG_search(int val, FG_BST_Node *root, FG_BST_Node *parent)$/;"	f
+FOUND	Lock_Free_BST.h	/^	FOUND$/;"	e	enum:find_result_type
+Fine_Grained_BST_Node	Fine_Grained_BST.h	/^typedef struct Fine_Grained_BST_Node {$/;"	s
+GET_FLAG	Lock_Free_BST.c	/^int GET_FLAG(void *ptr)$/;"	f
+HP_THRESHOLD	Lock_Free_BST.h	8;"	d
+IS_NULL	Lock_Free_BST.c	/^bool IS_NULL(void *ptr)$/;"	f
+InOrderPrintTree	main2.c	/^void InOrderPrintTree(FG_BST_Node * node)$/;"	f
+InOrderPrintTreeF	main.c	/^void InOrderPrintTreeF(FG_BST_Node * node)$/;"	f
+InOrderPrintTreeF	main_t2.c	/^void InOrderPrintTreeF(FG_BST_Node * node)$/;"	f
+InOrderPrintTreeL	main.c	/^void InOrderPrintTreeL(LF_BST_Node * node)$/;"	f
+InOrderPrintTreeL	main_t2.c	/^void InOrderPrintTreeL(LF_BST_Node * node)$/;"	f
+LF_BST_Node	Lock_Free_BST.h	/^} LF_BST_Node;$/;"	t	typeref:struct:Lock_Free_BST_Node
+LF_add	Lock_Free_BST.c	/^void LF_add(int key, int thread_num)\/\/c$/;"	f
+LF_find	Lock_Free_BST.c	/^int LF_find(int key, LF_BST_Node **pred, void **pred_op, LF_BST_Node **curr, void **curr_op, LF_BST_Node *auxRoot, int thread_num)\/\/c$/;"	f
+LF_jobs	main.c	/^void *LF_jobs(void* _arg)$/;"	f
+LF_jobs	main_t2.c	/^void *LF_jobs(void* _arg)$/;"	f
+LF_remove	Lock_Free_BST.c	/^bool LF_remove(int key, int thread_num)\/\/c$/;"	f
+Lock_Free_BST_Node	Lock_Free_BST.h	/^typedef struct Lock_Free_BST_Node {$/;"	s
+MARK	Lock_Free_BST.h	/^	MARK,$/;"	e	enum:flag_type
+MAX_THREADS	threads.h	4;"	d
+NODECOUNT	main.c	13;"	d	file:
+NONE	Lock_Free_BST.h	/^	NONE = 0,$/;"	e	enum:flag_type
+NOTFOUND_L	Lock_Free_BST.h	/^	NOTFOUND_L,$/;"	e	enum:find_result_type
+NOTFOUND_R	Lock_Free_BST.h	/^	NOTFOUND_R,$/;"	e	enum:find_result_type
+NUM_HP_PER_THREAD	Lock_Free_BST.h	9;"	d
+ONE	Lock_Free_BST.h	5;"	d
+ONGOING	Lock_Free_BST.h	/^	ONGOING = 0,$/;"	e	enum:operation_state
+RELOCATE	Lock_Free_BST.h	/^	RELOCATE$/;"	e	enum:flag_type
+Relocate_OP	Lock_Free_BST.h	/^} Relocate_OP;$/;"	t	typeref:struct:Relocate_Operation
+Relocate_Operation	Lock_Free_BST.h	/^typedef struct Relocate_Operation {$/;"	s
+SET_FLAG	Lock_Free_BST.c	/^void *SET_FLAG(void *ptr, int state)$/;"	f
+SET_NULL	Lock_Free_BST.c	/^void *SET_NULL(void *ptr)$/;"	f
+SUCCESSFUL	Lock_Free_BST.h	/^	SUCCESSFUL,$/;"	e	enum:operation_state
+THREE	Lock_Free_BST.h	7;"	d
+TWO	Lock_Free_BST.h	6;"	d
+UNFLAG	Lock_Free_BST.c	/^void *UNFLAG(void *ptr)$/;"	f
+Vector	vector.h	/^typedef struct Vector{$/;"	s
+_FINE_GRAINED_BST_H_	Fine_Grained_BST.h	3;"	d
+_LOCK_FREE_BST_H_	Lock_Free_BST.h	3;"	d
+_THREADS_H_	threads.h	2;"	d
+add_to_hp_list	Lock_Free_BST.c	/^void add_to_hp_list(int thread_num, LF_BST_Node *node)$/;"	f
+base_root	main.c	/^LF_BST_Node* base_root;$/;"	v
+base_root	main_t2.c	/^LF_BST_Node* base_root;$/;"	v
+calclock	main.c	/^long calclock(struct timespec *myclock) {$/;"	f
+calclock	main_t2.c	/^long calclock(struct timespec *myclock) {$/;"	f
+count	vector.h	/^        int count;$/;"	m	struct:Vector
+createNode	Fine_Grained_BST_Lock.c	/^FG_BST_Node* createNode(int val, FG_BST_Node *parent) {$/;"	f
+create_LF_node	Lock_Free_BST.c	/^LF_BST_Node *create_LF_node(int key)$/;"	f
+data	vector.h	/^        LF_BST_Node** data;$/;"	m	struct:Vector
+del_search	Fine_Grained_BST_Lock.c	/^FG_BST_Node* del_search(int val, FG_BST_Node* root, int thread_num)$/;"	f
+dest	Lock_Free_BST.h	/^	LF_BST_Node * volatile dest;$/;"	m	struct:Relocate_Operation
+dest_op	Lock_Free_BST.h	/^	void *dest_op;$/;"	m	struct:Relocate_Operation
+expected	Lock_Free_BST.h	/^	LF_BST_Node * volatile expected;$/;"	m	struct:Child_Compare_And_Swap_Operation
+find_result_type	Lock_Free_BST.h	/^enum find_result_type {$/;"	g
+flag_type	Lock_Free_BST.h	/^enum flag_type {$/;"	g
+g_root	main.c	/^FG_BST_Node *g_root;$/;"	v
+g_root	main2.c	/^FG_BST_Node *g_root;$/;"	v
+g_root	main_t2.c	/^FG_BST_Node *g_root;$/;"	v
+get_inorder_predecessor	Fine_Grained_BST_Lock.c	/^FG_BST_Node *get_inorder_predecessor(FG_BST_Node *node)$/;"	f
+get_inorder_successor	Fine_Grained_BST_Lock.c	/^FG_BST_Node *get_inorder_successor(FG_BST_Node *node)$/;"	f
+hazard_pointers	main.c	/^bool hazard_pointers;$/;"	v
+hazard_pointers	main_t2.c	/^bool hazard_pointers;$/;"	v
+help	Lock_Free_BST.c	/^void help(LF_BST_Node *pred, void *pred_op, LF_BST_Node *curr, void *curr_op, int thread_num)$/;"	f
+helpChildCAS	Lock_Free_BST.c	/^void helpChildCAS(Child_CAS_OP *op, LF_BST_Node *dest, int thread_num)$/;"	f
+helpMarked	Lock_Free_BST.c	/^void helpMarked(LF_BST_Node *pred, void *pred_op, LF_BST_Node *curr, int thread_num)$/;"	f
+helpRelocate	Lock_Free_BST.c	/^bool helpRelocate(Relocate_OP *op, LF_BST_Node *pred, void *pred_op, LF_BST_Node *curr, int thread_num)$/;"	f
+hp	Lock_Free_BST.c	/^LF_BST_Node* hp[MAX_THREADS * NUM_HP_PER_THREAD];$/;"	v
+hp_lock	Lock_Free_BST.c	/^pthread_mutex_t hp_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+hp_off	Lock_Free_BST.c	/^int hp_off[MAX_THREADS];$/;"	v
+is_left	Lock_Free_BST.h	/^	bool is_left;$/;"	m	struct:Child_Compare_And_Swap_Operation
+jobs	main.c	/^void *jobs(void* _arg)$/;"	f
+jobs	main2.c	/^void *jobs(void* _arg)$/;"	f
+jobs	main_t2.c	/^void *jobs(void* _arg)$/;"	f
+key	Lock_Free_BST.h	/^	int volatile key;$/;"	m	struct:Lock_Free_BST_Node
+left	Fine_Grained_BST.h	/^	struct Fine_Grained_BST_Node *left;$/;"	m	struct:Fine_Grained_BST_Node	typeref:struct:Fine_Grained_BST_Node::Fine_Grained_BST_Node
+left	Lock_Free_BST.h	/^	struct Lock_Free_BST_Node * volatile left;$/;"	m	struct:Lock_Free_BST_Node
+lock	Fine_Grained_BST.h	/^	pthread_mutex_t lock;$/;"	m	struct:Fine_Grained_BST_Node
+main	main.c	/^int main(){$/;"	f
+main	main2.c	/^int main(){$/;"	f
+main	main_t2.c	/^int main(){$/;"	f
+op	Lock_Free_BST.h	/^	void * volatile op;$/;"	m	struct:Lock_Free_BST_Node
+operation_state	Lock_Free_BST.h	/^enum operation_state {$/;"	g
+parent	Fine_Grained_BST.h	/^	struct Fine_Grained_BST_Node *parent;$/;"	m	struct:Fine_Grained_BST_Node	typeref:struct:Fine_Grained_BST_Node::Fine_Grained_BST_Node
+print_vector	vector.h	/^void print_vector(vector* v)$/;"	f
+remove_key	Lock_Free_BST.h	/^	int remove_key;$/;"	m	struct:Relocate_Operation
+replace_key	Lock_Free_BST.h	/^	int replace_key;$/;"	m	struct:Relocate_Operation
+right	Fine_Grained_BST.h	/^	struct Fine_Grained_BST_Node *right;$/;"	m	struct:Fine_Grained_BST_Node	typeref:struct:Fine_Grained_BST_Node::Fine_Grained_BST_Node
+right	Lock_Free_BST.h	/^	struct Lock_Free_BST_Node *volatile right;$/;"	m	struct:Lock_Free_BST_Node
+rlist	Lock_Free_BST.c	/^vector rlist[MAX_THREADS];\/\/c$/;"	v
+size	vector.h	/^        int size;$/;"	m	struct:Vector
+state	Lock_Free_BST.h	/^	int volatile state;$/;"	m	struct:Relocate_Operation
+testing	main.c	/^long testing(int num)$/;"	f
+threadCount	main.c	/^int threadCount;$/;"	v
+thread_create	main.c	/^void thread_create(int j,int num)$/;"	f
+thread_create	main2.c	/^void thread_create(void)$/;"	f
+thread_create	main_t2.c	/^void thread_create(int j)$/;"	f
+thread_id	threads.h	/^	pthread_t	thread_id;$/;"	m	struct:thread_info
+thread_info	threads.h	/^struct thread_info {$/;"	s
+thread_num	threads.h	/^	int		thread_num;$/;"	m	struct:thread_info
+tree_lock	main.c	/^pthread_mutex_t tree_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+tree_lock	main2.c	/^pthread_mutex_t tree_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+tree_lock	main_t2.c	/^pthread_mutex_t tree_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+update	Lock_Free_BST.h	/^	LF_BST_Node * volatile update;$/;"	m	struct:Child_Compare_And_Swap_Operation
+value	Fine_Grained_BST.h	/^	int value;$/;"	m	struct:Fine_Grained_BST_Node
+vector	vector.h	/^}vector;$/;"	t	typeref:struct:Vector
+vector_clear	vector.h	/^void vector_clear(vector *v)$/;"	f
+vector_erase	vector.h	/^void vector_erase(vector *v ,LF_BST_Node* node)$/;"	f
+vector_find	vector.h	/^LF_BST_Node* vector_find(vector *v,LF_BST_Node* node)$/;"	f
+vector_init	vector.h	/^void vector_init(vector *v)$/;"	f
+vector_push_back	vector.h	/^void vector_push_back(vector* v,LF_BST_Node* node)$/;"	f

@@ -1,0 +1,1 @@
+cmd_/home/kyle/Desktop/module_test/FS_module/pxt4/pxt4.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/kyle/Desktop/module_test/FS_module/pxt4/pxt4.ko /home/kyle/Desktop/module_test/FS_module/pxt4/pxt4.o /home/kyle/Desktop/module_test/FS_module/pxt4/pxt4.mod.o ;  true

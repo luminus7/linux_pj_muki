@@ -1,0 +1,1 @@
+cmd_/home/syslab1804/linuxlect_practice/muki/module_test/atomic_module/atomic_thread.mod := { echo  /home/syslab1804/linuxlect_practice/muki/module_test/atomic_module/atomic_thread.o; echo; } > /home/syslab1804/linuxlect_practice/muki/module_test/atomic_module/atomic_thread.mod

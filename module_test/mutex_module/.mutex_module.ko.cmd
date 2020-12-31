@@ -1,0 +1,1 @@
+cmd_/home/syslab/workspace_muk/module_test/mutex_module/mutex_module.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/syslab/workspace_muk/module_test/mutex_module/mutex_module.ko /home/syslab/workspace_muk/module_test/mutex_module/mutex_module.o /home/syslab/workspace_muk/module_test/mutex_module/mutex_module.mod.o ;  true

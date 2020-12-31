@@ -1,0 +1,2 @@
+/home/syslab1804/linuxlect_practice/muki/module_test/atomic_module/atomic_thread.o
+
